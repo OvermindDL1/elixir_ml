@@ -25,6 +25,7 @@ defmodule ElixirMl.Mixfile do
 
   defp deps do
     [
+      # {:combine, "~> 0.9.6"},
       {:ex_doc, "~> 0.14.5", only: [:dev]},
     ]
   end
